@@ -46,3 +46,15 @@ If not then just throw all the source into a project and add the required libs.
 ```
 make
 ```
+
+## v1 - Starting point
+![Screenshot of version 1](/screenshots/1-1.png)
+
+I created this version from memory. I remember it was untextured, using vertex
+colours for lighting. The arrow keys move the level around, keeping the player
+centre screen.
+
+There are so many issues with this already. Firstly the mesh is drawn using
+immediate mode; it was painful hand-coding coordinates even for this little
+demo scene - no wonder I gave up on this. The mesh is also covered in
+T-Junctions and the player movement is tied to the framerate.
